@@ -1,0 +1,8 @@
+CREATE DATABASE nom_texto DEFAULT CHARACTER SET utf8;
+USE nom_texto;
+
+CREATE TABLE entrada(
+nombre		VARCHAR(20) NOT NULL
+)DEFAULT CHARACTER SET utf8;
+
+SELECT * FROM entrada;
